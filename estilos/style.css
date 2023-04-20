@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+}
+.container-fluit .fila{
+    width: 100%;
+    margin: 0;
+}
+.container-fluit .fila .parte1{
+    color: black;
+    padding: 0;
+}
+.container-fluit .fila .parte1 .imagen{
+    width: 90%;
+    position: relative;
+}
+.container-fluit .fila .parte1 .imagen img{
+    width: 100%;
+}
+.container-fluit .fila .parte1 .imagen h1{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    padding: 0 12% 0 20%;
+}
+.container-fluit .fila .parte1 .p1, .container-fluit .fila .parte1 .p2, .container-fluit .row .parte1 .la{
+    padding: 0 19% 0% 20%;
+    margin: 6% 0 0 0;
+}
+.container-fluit .fila .parte1 .p1{
+    font-size: 28px;
+}
+.container-fluit .fila .parte1 .p2{
+    font-size: 18px;
+}
+.container-fluit .row .parte1 .la{
+    font-size: 20px;
+}
+.container-fluit .row .parte1 .la a{
+    color: black;
+    animation: move linear 3000ms infinite;  
+}
+@keyframes move {
+  0% {
+    text-shadow:
+      4px -4px 0 black, 
+      3px -3px 0 black, 
+      2px -2px 0 black, 
+      1px -1px 0 black,
+      /* -4px 4px 0 black, 
+      -3px 3px 0 black, 
+      -2px 2px 0 black, 
+      -1px 1px 0 black; */
+  }
+  25% {    
+    text-shadow:      
+      -4px -4px 0 red, 
+      -3px -3px 0 red, 
+      -2px -2px 0 red, 
+      -1px -1px 0 red,
+      /* 4px 4px 0 black, 
+      3px 3px 0 black, 
+      2px 2px 0 black, 
+      1px 1px 0 black; */
+  }
+  50% {
+    text-shadow:
+      /* -4px 4px 0 black, 
+      -3px 3px 0 black, 
+      -2px 2px 0 black, 
+      -1px 1px 0 black, */
+      4px -4px 0 blue, 
+      3px -3px 0 blue, 
+      2px -2px 0 blue, 
+      1px -1px 0 blue;
+  }
+  75% {
+    text-shadow:
+      /* 4px 4px 0 black, 
+      3px 3px 0 black, 
+      2px 2px 0 black, 
+      1px 1px 0 black, */
+      -4px -4px 0 red, 
+      -3px -3px 0 red, 
+      -2px -2px 0 red, 
+      -1px -1px 0 red;
+  }
+  100% {
+    text-shadow:
+      4px -4px 0 black, 
+      3px -3px 0 black, 
+      2px -2px 0 black, 
+      1px -1px 0 black,
+      /* -4px 4px 0 black, 
+      -3px 3px 0 black, 
+      -2px 2px 0 black, 
+      -1px 1px 0 black; */
+  }  
+}
+
+.container-fluit .fila .parte2{
+    color: black;
+}
+
+.container-fluit .fila .parte2{
+    padding: 6% 6% 3% 6%;
+}
+.container-fluit .fila .parte2 a{
+    color: black;
+}
+.container-fluit .fila .parte2 a button{
+    padding: 1% 5%;
+    width: 100%;
+    text-align: start;
+    font-size: 30px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 5%;
+}
+.container-fluit .fila .parte2 .lineas{
+    width: 100%;
+    position: relative;
+    padding: 5px 0;
+}
+.container-fluit .fila .parte2 .lineas hr{
+    width: 100%;
+    margin: 0;
+    background: black;
+    border: 1px solid;
+}
+.container-fluit .fila .parte2 .lineas p{
+    position: absolute;
+    background: white;
+    margin: 0;
+    left: 49%;
+    font-size: 18px;
+    top: -7px;
+    }
+.container-fluit .fila .parte2 a button img{
+    width: 19%;
+    padding-right: 10%;
+}
+.container-fluit .fila .parte2 form{
+    padding-top:5%;
+}
+.container-fluit .fila .parte2 form .form1{
+    position: relative;
+    display: flex;
+    gap: 13px;
+    padding: 11px 0;
+    margin-bottom: 5%;
+}
+.container-fluit .fila .parte2 form .form1 label{
+    position: absolute;
+    background: white;
+}
+.container-fluit .fila .parte2 form .form1 .nombre{
+    top: 0px;
+    left: 2%;
+}
+.container-fluit .fila .parte2 form .form1 .apellido{
+    top: 0;
+    left: 58%;
+}
+.container-fluit .fila .parte2 form .form1 input{
+    width: 45%;
+    height: 40px;
+}
+.container-fluit .fila .parte2 form .form2{
+    position: relative;
+    padding: 11px 0;
+    margin-bottom: 5%;
+}
+.container-fluit .fila .parte2 form .form2 label{
+    position: absolute;
+    top: 0;
+    left: 2%;
+    background: white;
+}
+.container-fluit .fila .parte2 form .form2 input{
+    width: 100%;
+    height: 40px;
+}
+.container-fluit .fila .parte2 form .form3{
+    position: relative;
+    padding: 11px 0;
+    margin-bottom: 5%;
+}
+.container-fluit .fila .parte2 form .form3 label{
+    position: absolute;
+    top: 0;
+    left: 2%;
+    background: white;
+}
+.container-fluit .fila .parte2 form .form3 input{
+    width: 100%;
+    height: 40px;
+}
+.container-fluit .fila .parte2 .p1{
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+.container-fluit .fila .parte2 .p1 a{
+    width: 100%;
+}
+.container-fluit .fila .parte2 .p1 input{
+    margin-right: 4%;
+}
+.container-fluit .fila .parte2 .enviar{
+    border-radius: 5px;
+    width: 100%;
+    font-size: 25px;
+    background: #FFE061;
+    border: 0;
+}
+.fila .parte2 .enviar:active{
+    -webkit-box-shadow: 2px 8px 48px 9px rgba(55,102,1,1);
+-moz-box-shadow: 2px 8px 48px 9px rgba(55,102,1,1);
+box-shadow: 2px 8px 48px 9px rgba(55,102,1,1);
+}
+.fila .parte2 a button:active{
+    background: #FFE061;
+    border: 0;
+}
